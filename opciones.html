@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="./css/opciones.css">  
+    <title>Mi Cuenta</title>
+    <style>
+        /* Agrega tus estilos personalizados aquí */
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Mi Cuenta</h1>        
+        <div class="row ">
+            <div class="col-6">
+                <p id="nombre-usuario"></p>
+            </div>
+            <div class="col-6 text-right">
+                <a href="./login.html" class="btn btn-danger" id="cerrar-sesion">Cerrar Sesión</a>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Saldo Actual</h2>
+                        <p id="saldo"></p>
+                        <button class="btn btn-primary" id="ver-saldo">Ver Saldo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Transferir</h2>
+                        <input type="text" id="usuario-destino" placeholder="Usuario destino">
+                        <input type="number" id="monto-transferir" placeholder="Monto a transferir">
+                        <button class="btn btn-primary" id="transferir">Transferir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Consignar</h2>
+                        <input type="number" id="monto-consignar" placeholder="Monto a consignar" inputmode="none">
+                        <button class="btn btn-primary" id="consignar">Consignar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Retirar</h2>
+                        <input type="number" id="monto-retirar" placeholder="Monto a retirar">
+                        <button class="btn btn-primary" id="retirar">Retirar</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <h2 class="card-title">Movimientos</h2>
+                            <button class="btn btn-primary" id="mostrar-movimientos">Mostrar Movimientos</button>
+                            <button class="btn btn-primary" id="cerrar-movimientos" style="display: none;">Cerrar Movimientos</button>
+                        </div>                     
+                        <ul id="movimientos" style="display: none;">
+                    
+                            <!-- Aquí se mostrarán los movimientos -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Agrega tu código JavaScript para manejar las funcionalidades aquí
+    </script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

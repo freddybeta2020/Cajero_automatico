@@ -1,0 +1,38 @@
+/* body {
+    background-color: white;
+} */
+
+Estilos para el encabezado
+header {
+    background-color: #0074e4;
+    /* Fondo azul */
+    padding: 20px;
+    /* Espacio interior */
+    text-align: right;
+    /* Alineación del texto a la derecha */
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #0074e4;
+    /* Fondo azul */
+    color: #fff;
+    /* Texto blanco */
+    border: none;
+    /* Sin borde */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    cursor: pointer;
+    /* Cambia el cursor al pasar por encima */
+}
+.center-title {
+    text-align: center;
+  }
+  .container{
+    margin-top: 45px;
+    
+  }
+
+  .card-title{
+    margin-left: 30px;
+  }

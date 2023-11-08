@@ -1,0 +1,30 @@
+/* Ocultar las flechas en campos "number" */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Estilos para filas */
+.fila {
+    display: block;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para movimientos */
+  #movimientos {
+    width: 25%; /* Divide el ancho en 4 para mostrar 4 movimientos por fila */
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+  }
+  
+  #mostrar-movimientos{
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  #cerrar-movimientos{
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
